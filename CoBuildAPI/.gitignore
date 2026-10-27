@@ -1,0 +1,13 @@
+# User-specific files
+*.user
+*.suo
+
+# .NET user secrets
+secrets.json
+
+# Environment files
+.env
+.env.*
+
+# Local settings
+appsettings.Local.json
