@@ -8,6 +8,8 @@ public class LambdaStartup(IConfiguration configuration)
 	public void ConfigureServices(IServiceCollection services)
 	{
 		services.AddControllers();
+		services.AddApplicationServices();
+		services.AddDatabase(Configuration);
 	}
 
 	// This method gets called by the runtime. Use this method to configure the HTTP request pipeline
